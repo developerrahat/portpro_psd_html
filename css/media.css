@@ -1,0 +1,277 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+        /* header media css start */
+        .logo span {
+            border:none;
+        }
+        .navbar-right ul li {
+            border-left:none;
+        }
+        .logo {
+            margin: auto;
+        }
+        .logo i {
+            display: none;
+        }
+        /* header media css end */
+
+        /* banner media css start */
+        .banner{
+            padding-top:180px;
+            padding-bottom: 120px;
+        }
+        .banner-text {
+            color: #ffffff;
+            text-align: start !important;
+        }
+        .n-shoes {
+            font-size:48px;
+            line-height:30px;
+        }
+        .banner-text h4 {
+            font-size: 14px;
+            word-spacing:0;
+        }
+        .shop-btn {
+            margin-top: 30px;
+            padding: 6px 25px;
+        }
+        /* banner media css end */
+
+        /* service media css start */
+
+        .service-item {
+            min-height: 265px;
+        
+        }
+        .defaul-heading {
+            font-size: 25px;
+        }
+        .s-text p {
+            font-size: 15px;
+        }
+        .s-btn {
+            font-size: 14px;
+        }
+
+        /* service media css end */
+
+        /* offer media  css start */
+        .offer-left-text {
+            padding: 50px 5px;
+            min-height: 400px;
+        }
+        .playing-img img {
+            min-height: 380px;
+        }
+        .offer-left-text h2 {
+            font-size: 15px;
+            font-weight: 400;
+        }
+        .offer-head {
+            margin-top: 10px;
+            margin-bottom: 15px;
+            font-size: 20px !important;
+            font-weight: 700;
+        }
+        /* offer media  css end */
+        /* hambarger toggler buttton css start */
+        .custom-toggler {
+            margin-right: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+
+        
+        }
+        .custom-toggler:focus{
+            box-shadow: none;
+            border: 1px solid white;
+        }
+        .custom-toggler-icon{
+            background-image: none;
+        }
+
+        .custom-toggler-icon::before{
+            content: "\f0c9";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 600;
+            font-size: 30px;
+            position: relative;
+            top: 2px;
+            color: white;
+        }
+        /* hambarger toggler buttton css end */
+
+        /* footer media css start */
+        .footer-bottom{
+            padding: 30px 0;
+        }
+        .fb-text{
+            margin-bottom: 15px;
+        }
+        /* footer media css end */
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+        /* header media css start */
+        .logo span {
+            border:none;
+        }
+        .navbar-right ul li {
+            border-left:none;
+        }
+        .logo {
+            margin: auto;
+        }
+        .logo i {
+            display: none;
+        }
+        /* header media css end */
+
+        /* banner media css start */
+        .banner-text {
+            color: #ffffff;
+            text-align: start !important;
+        }
+        .n-shoes {
+            font-size: 85px;
+            line-height: 57px;
+        }
+        .banner-text h4 {
+            font-size: 14px;
+            word-spacing: 8px;
+        }
+        /* banner media css end */
+
+        /* service media css start */
+        .defaul-heading {
+            font-size: 25px;
+        }
+        .s-text p {
+            font-size: 14px;
+        }
+        .s-btn {
+            font-size: 14px;
+        }
+        /* service media css end */
+
+        /* hambarger toggler buttton css start */
+        .custom-toggler {
+            margin-right: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .custom-toggler:focus{
+            box-shadow: none;
+            border: 1px solid white;
+        }
+        .custom-toggler-icon{
+            background-image: none;
+        }
+        
+        .custom-toggler-icon::before{
+            content: "\f0c9";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 600;
+            font-size: 30px;
+            position: relative;
+            top: 2px;
+            color: white;
+        }
+        /* hambarger toggler buttton css end */
+
+       /* footer media css start */
+       .footer-bottom{
+           padding: 30px 0;
+    }
+       .fb-text{
+           margin-bottom: 15px;
+       }
+       /* footer media css end */
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+        /* header media css start */
+        .logo span {
+            border:none;
+        }
+        .navbar-right ul li {
+            border-left:none;
+        }
+        .logo {
+            margin: auto;
+        }
+        .logo i {
+            display: none;
+        }
+        /* header media css end */
+       /* banner media css start */
+        .banner-text {
+            color: #ffffff;
+            text-align: start !important;
+            }
+        .n-shoes{
+            font-size: 100px;
+            line-height: 68px;
+        }
+        }
+        /* banner media css end */
+
+   /* footer media css start */
+.ft-form{
+    margin-top: 30px;
+}
+   /* footer media css end */
+
+   /* hambarger toggler buttton css start */
+.custom-toggler {
+    margin-right: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.custom-toggler:focus{
+    box-shadow: none;
+    border: 1px solid white;
+}
+.custom-toggler-icon{
+    background-image: none;
+}
+
+.custom-toggler-icon::before{
+    content: "\f0c9";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    font-size: 30px;
+    position: relative;
+    top: 2px;
+    color: white;
+}
+   /* hambarger toggler buttton css end */
+
+   /* service media css start */
+.service-item{
+    border-bottom: 1px solid #ddd;
+}
+   /* service media css end */
+ }
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   
+ }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }

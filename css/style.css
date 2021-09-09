@@ -1,0 +1,405 @@
+/* common css start */
+body,h1,h5,h6,a,p{
+    font-family: 'Poppins', sans-serif;
+}
+body,h2,h3,h4{
+    font-family: 'Bebas Neue', cursive;
+    
+}
+a{
+    text-decoration: none;
+}
+/* common css end */
+
+/* header css start */
+.header{
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    transition:all .5s ease-in-out;
+}
+.scrollUp{
+    transform: translateY(-50px);
+}
+.my-navbar{
+    padding: 0;
+}
+.logo{
+    margin-right: 0 !important;
+    padding: 0 5px;
+    font-size: 30px;
+    font-weight: 900;
+    color: #ffffff !important;
+    text-transform: uppercase;
+}
+.logo span{
+    padding:  0 15px;
+    border-right: 1px solid #4d4d4d;
+    border-left: 1px solid #4d4d4d;
+}
+.logo i{
+    margin: 0 10px;
+}
+.header-menu ul li a{
+    margin: 6px 15px;
+    padding: 0 !important;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ffffff !important;
+    transition: .4s;
+    
+}
+.header-menu ul li:last-child a{
+    margin-right: 0;
+}
+.header-menu ul li a:hover{
+    color:#7d91f5 !important;
+}
+.navbar-right ul{
+    text-align: center;
+}
+.navbar-right ul li{
+    border-left:1px solid #4d4d4d;
+    padding: 10px 0 !important;
+    margin-right: 0 !important;
+}
+.navbar-right ul li a{
+    margin: 0 12px;
+    color: #ffffff !important;
+    font-size: 18px;
+    
+}
+.navbar-right ul li:last-child a{
+    margin-right: 10px;
+    padding-right: 0 !important;
+}
+.navbar-right ul li a:hover{
+    color:#7d91f5 !important;
+}
+/* header css end */
+
+/* banner css start */
+.banner{
+    background: url(../imgs/banner.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top:240px;
+    padding-bottom: 120px;
+}
+.banner-text{
+    color: #ffffff;
+}
+.n-shoes {
+    font-size: 129px;
+    line-height: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.banner-text h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+}
+.shop-btn{
+    margin-top:50px;
+    padding: 10px 30px;
+    background: #3954d9 !important;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    border:1px solid transparent;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+}
+.shop-btn::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:0;
+    height: 100%;
+    background: rgba(14, 47, 87, .5);
+    border-radius: 30px;
+    z-index: -1;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+.shop-btn:hover::after{
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+}
+.shop-btn:focus{
+    border:1px solid transparent;
+    box-shadow: none;
+    outline: auto;
+    }
+/* banner css end */
+
+/* services csss start */
+.shadow-wrapper{
+    position: relative;
+    top: -60px;
+}
+.shadow-wrapper{
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+    transition: .4s;
+}
+.shadow-wrapper:hover{
+    box-shadow: 0 0 20px 2px rgba(2, 6, 19, 0.4);
+}
+
+
+.service-item{
+    padding:20px;
+    min-height: 320px;
+    border-right: 1px solid #ddd;
+    background: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+.s-icon{
+    font-size: 32px;
+    color: #5c5c5c;
+    margin: 10px 0;
+}
+.defaul-heading{
+    font-size:26px;
+    color: #0d2e57;
+    text-transform: uppercase;
+    font-weight:400;
+}
+.s-text p{
+    font-size: 15px;
+    color: #8a8a8a;
+}
+.s-btn{
+    color: #3954d9;
+    font-weight: 600;
+    transition: .4s;
+}
+.s-btn:focus{
+box-shadow: none;
+outline: auto;
+}
+/* services csss end */
+
+/* offer css start */
+.offer-section{
+    background: #f2f0f0;
+}
+.offer-left-text{
+    padding: 50px 40px;
+    min-height: 400px;
+}
+.offer-head{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.offer-left-text h2{
+    font-size: 20px;
+    color: #616161;
+    text-transform: uppercase;
+    font-weight:400;
+}
+.available{
+    margin-right: 50px;
+    font-size: 52px;
+    color: #3954d9;
+    font-weight: 700;
+}
+.discount{
+    font-size: 32px;
+    color: #121212;
+}
+.offer-time{
+    padding: 15px 10px;
+    margin-top: 30px;
+    background: white;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .1);
+    border-radius: 30px;
+    text-align: center;
+}
+.offer-time h4{
+    font-size:30px;
+    margin-bottom: -10px !important;
+}
+.offer-time h6{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #4d4d4d;
+    font-size: 10px;
+}
+.playing-img img {
+	min-height: 667px;
+}
+/* offer css end */
+
+/* product 1 css start */
+.product1{
+    border-top: 2px solid #dddd;
+}
+.p-img{
+    text-align: center;
+    transition: .4s;
+}
+.p-img:hover{
+    transform: scale(1.1);
+}
+.p-text {
+	margin-top: 20px;
+	padding-left: 20px;
+}
+.p-text h2{
+    font-size: 20px;
+    color: #0d2e57;
+    font-weight:400;
+    text-transform: uppercase;
+}
+.pd-price{
+    font-size: 15px;
+    text-transform: uppercase;
+    color:#3954d9;
+    font-weight:400;
+}
+.p-discount{
+    color: #5c5c5c;
+}
+/* product 1 css end */
+
+/* product2 css start*/
+.product2{
+    border-top: 1px solid #ddd;
+}
+.product4{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #dddd;
+}
+.bgc-black {
+	padding-left: 10px;
+	background: black;
+	color: white !important;
+	padding-right: 5px !important;
+}
+.shoes-font{
+    font-size:40px !important;
+    color: white !important;
+}
+.bgc-img{
+    background: url(../imgs/p-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding:60px 0;
+}
+.mtb{
+    color: #dddd;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+.mt-20{
+    margin-top: 25px;
+}
+.bg-heading {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 42px !important;
+	color: #ffffff !important;
+}
+/* product2 css end*/
+.load-button{
+    padding: 50px 0;
+}
+.load-button button{
+    width: 150px;
+    height: 40px;
+    color: #3954d9;
+}
+/* features start */
+
+.f-img{
+    text-align: center;
+    cursor: pointer;
+}
+.f-img img{
+    transition: .4s;
+}
+.f-img img:hover{
+    transform: scale(.9);
+}
+/* features end */
+
+/* brand css start */
+.brand-icon{
+}
+.brand-img {
+	height: 160px;
+	padding: 25px;
+	border: 1px solid #dddd;
+	display: flex;
+	align-items: center;
+    cursor: pointer;
+}
+/* brand css end */
+
+/* footer css start */
+.footer{
+    background: url(../imgs/footer-bg.jpg) no-repeat center;
+    background-size: cover;
+  
+}
+.footer-top{
+    padding-top: 30px;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #dddd;
+}
+.ft-widget{
+margin-top: 30px;
+}
+.ft-widget h1{
+    font-size: 25px;
+    font-weight: 600;
+    color: #3954d9;
+    text-transform: uppercase;
+}
+.ft-menu ul li a{
+  color: #ffffff;
+  font-size: 14px;
+
+}
+.ft-menu ul li a:hover{
+  color: #3954d9;
+
+}
+.ft-social ul li a{
+    margin: 5px 0 !important;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #ffffff;
+    color: #000000;
+    border-radius: 50%;
+}
+.ft-social ul li a:hover{
+    color: #3954d9;
+}
+
+.n-email{
+}
+.ft-form{
+    margin-top: 50px;
+}
+.footer-bottom{
+    padding: 50px 0;
+}
+.fb-text p{
+    color: #8a8a8a;
+}
+/* footer css end */
